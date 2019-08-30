@@ -1,5 +1,6 @@
 import React from 'react'
 import {Navbar, NavDropdown, Nav} from 'react-bootstrap'
+import {Link} from 'react-router-dom'
 
 const Menu = ()=>{
     return (
@@ -8,6 +9,7 @@ const Menu = ()=>{
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
+                <Link to="home" role="tab" data-rb-event-key="#home" tabindex="-1" aria-selected="false" className="nav-link">Home</Link>
                 <Nav.Link href="#new">New</Nav.Link>
                 <NavDropdown title="Brands" id="collasible-nav-dropdown">
                     <ul>
@@ -55,7 +57,7 @@ const Menu = ()=>{
                 </NavDropdown>
                 <Nav.Link href="#shoes">Shoes</Nav.Link>
                 <Nav.Link href="#sale">Sale</Nav.Link>
-                <Nav.Link href="#blog">Blog</Nav.Link>
+                <Link to="blog" role="tab" data-rb-event-key="#blog" aria-selected="true" className="nav-link active">Blog</Link>
             </Nav>
             <Nav>
                 <Nav.Link href="#deets">More deets</Nav.Link>

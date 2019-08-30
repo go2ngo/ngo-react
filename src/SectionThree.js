@@ -6,7 +6,6 @@ import {Container, Row, Col, Carousel} from 'react-bootstrap'
 const SectionThree= ()=>{
     return(
         <Container-grid>
-            <h2>Popular Categories </h2>
         <Row>
             <Col  className="overlap"> 
                 <img
