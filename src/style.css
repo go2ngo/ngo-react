@@ -1,0 +1,19 @@
+.style1 {
+    color:black;
+    font-family:Cursive;
+    text-transform:lowercase
+}
+
+.overlap{
+    color:green;
+    margin: 70px;
+    position: relative;
+    padding:50px;
+    
+}
+
+.over{
+    position: absolute;
+    bottom: 25%;
+    left: 20%;
+}
