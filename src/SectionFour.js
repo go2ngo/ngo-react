@@ -21,6 +21,15 @@ const SectionFour= ()=>{
                 /> 
                 </div> 
             </Col>
+            <Col>
+                <div>
+                <img
+                    className="d-block w-100" id="over"
+                    src="images/Blog_POLAR_LK_Grey_394x.png"
+                    alt="First slide"
+                /> 
+                </div> 
+            </Col>
         </Row>
         </Container-grid>
     )
