@@ -3,7 +3,7 @@ import {Container, Row, Col} from 'react-bootstrap'
 
 const SectionFour= ()=>{
     return(
-        <Container-grid>
+        <Container className='twosectioncol'>
         <Row>
             <Col>
                 <img
@@ -13,16 +13,14 @@ const SectionFour= ()=>{
                 />    
             </Col>
             <Col>
-                <div>
                 <img
                     className="d-block w-100" id="over"
                     src="images/Blog_POLAR_LK_Grey_394x.png"
                     alt="First slide"
                 /> 
-                </div> 
             </Col>
         </Row>
-        </Container-grid>
+        </Container>
     )
 }
 

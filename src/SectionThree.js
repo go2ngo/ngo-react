@@ -1,11 +1,11 @@
 import React, {Component} from 'react'
-import {Container, Row, Col, Carousel} from 'react-bootstrap'
+import {Container, Row, Col} from 'react-bootstrap'
 
 
 
 const SectionThree= ()=>{
     return(
-        <Container-grid>
+        <Container>
         <Row>
             <Col  className="overlap"> 
                 <img
@@ -32,7 +32,7 @@ const SectionThree= ()=>{
                 <h3  className="over">HEELS</h3>          
             </Col>
         </Row>
-        </Container-grid>
+        </Container>
     )
 }
 

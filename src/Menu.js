@@ -9,7 +9,7 @@ const Menu = ()=>{
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
-                <Link to="home" role="tab" data-rb-event-key="#home" tabindex="-1" aria-selected="false" className="nav-link">Home</Link>
+                <Link to="/" role="tab" data-rb-event-key="#home" tabindex="-1" aria-selected="false" className="nav-link">Home</Link>
                 <Nav.Link href="#new">New</Nav.Link>
                 <NavDropdown title="Brands" id="collasible-nav-dropdown">
                     <ul>
@@ -45,15 +45,18 @@ const Menu = ()=>{
                     </ul>
                 </NavDropdown>
                 <NavDropdown title="Skateboarding" id="collasible-nav-dropdown">
-                    <ul>
-                        <li><a className="active" href="#Create Page">Create Page</a></li>
-                        <li><a href="#Manage Pages">Manage Pages</a></li>
-                        <li><a href="#Create Ads">Create Ads</a></li>
-                        <li><a href="#Manage Ads">Manage Ads</a></li>
-                        <li><a href="#Activity Logs">Activity Logs</a></li>
-                        <li><a href="#Setting">Setting</a></li>
-                        <li><a href="#Log Out">Log Out</a></li>
-                    </ul>
+                    <div>
+                        <ul>
+                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Large Modal</button>
+                            <li><a className="active" href="#Create Page">Create Page</a></li>
+                            <li><a href="#Manage Pages">Manage Pages</a></li>
+                            <li><a href="#Create Ads">Create Ads</a></li>
+                            <li><a href="#Manage Ads">Manage Ads</a></li>
+                            <li><a href="#Activity Logs">Activity Logs</a></li>
+                            <li><a href="#Setting">Setting</a></li>
+                            <li><a href="#Log Out">Log Out</a></li>
+                        </ul>
+                    </div>
                 </NavDropdown>
                 <Nav.Link href="#shoes">Shoes</Nav.Link>
                 <Nav.Link href="#sale">Sale</Nav.Link>
